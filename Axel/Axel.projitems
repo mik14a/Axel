@@ -9,19 +9,19 @@
     <Import_RootNamespace>System</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\Modules\ObservableCollectionExtensions\ObservableCollectionExtensions\ObservableCollectionExtensions.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)..\Modules\ObservableCollectionExtensions\ObservableCollectionExtensions\ObservableCollectionExtensions.cs">
       <Link>Collections\ObjectModel\ObservableCollectionExtensions.cs</Link>
     </Compile>
-    <Compile Include="..\Modules\Tokenizer\Tokenizer\Token.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)..\Modules\Tokenizer\Tokenizer\Token.cs">
       <Link>Text\Tokenization\Token.cs</Link>
     </Compile>
-    <Compile Include="..\Modules\Tokenizer\Tokenizer\TokenDefinition.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)..\Modules\Tokenizer\Tokenizer\TokenDefinition.cs">
       <Link>Text\Tokenization\TokenDefinition.cs</Link>
     </Compile>
-    <Compile Include="..\Modules\Tokenizer\Tokenizer\Tokenizer.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)..\Modules\Tokenizer\Tokenizer\Tokenizer.cs">
       <Link>Text\Tokenization\Tokenizer.cs</Link>
     </Compile>
-    <Compile Include="..\Modules\Tokenizer\Tokenizer\TokenizerFactory.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)..\Modules\Tokenizer\Tokenizer\TokenizerFactory.cs">
       <Link>Text\Tokenization\TokenizerFactory.cs</Link>
     </Compile>
   </ItemGroup>
