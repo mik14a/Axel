@@ -1,0 +1,6 @@
+[submodule "Modules/Tokenizer"]
+	path = Modules/Tokenizer
+	url = https://github.com/mik14a/Tokenizer.git
+[submodule "Modules/ObservableCollectionExtensions"]
+	path = Modules/ObservableCollectionExtensions
+	url = https://github.com/mik14a/ObservableCollectionExtensions.git
