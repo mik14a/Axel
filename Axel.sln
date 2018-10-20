@@ -1,33 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Axel", "Axel\Axel.shproj", "{F5741FCD-3716-420A-987F-CF9987FF7AA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Axel", "Axel\Axel.csproj", "{E339879E-5116-40EE-84AB-A0EF6574FB01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Axel", "Axel\Axel.csproj", "{4E674C6A-6CBF-48C3-9210-9A1F2F55D438}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Axel.Tests", "Axel.Tests\Axel.Tests.csproj", "{28CE657D-7839-4313-BEF2-61B84D0FF06F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Axel.Tests", "Axel.Tests\Axel.Tests.csproj", "{E22F606F-7151-4BF1-9F8A-FF12E0CCDB97}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		Axel\Axel.projitems*{f5741fcd-3716-420a-987f-cf9987ff7aa0}*SharedItemsImports = 13
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4E674C6A-6CBF-48C3-9210-9A1F2F55D438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4E674C6A-6CBF-48C3-9210-9A1F2F55D438}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4E674C6A-6CBF-48C3-9210-9A1F2F55D438}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4E674C6A-6CBF-48C3-9210-9A1F2F55D438}.Release|Any CPU.Build.0 = Release|Any CPU
-		{28CE657D-7839-4313-BEF2-61B84D0FF06F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{28CE657D-7839-4313-BEF2-61B84D0FF06F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{28CE657D-7839-4313-BEF2-61B84D0FF06F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{28CE657D-7839-4313-BEF2-61B84D0FF06F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E339879E-5116-40EE-84AB-A0EF6574FB01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E339879E-5116-40EE-84AB-A0EF6574FB01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E339879E-5116-40EE-84AB-A0EF6574FB01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E339879E-5116-40EE-84AB-A0EF6574FB01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E22F606F-7151-4BF1-9F8A-FF12E0CCDB97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E22F606F-7151-4BF1-9F8A-FF12E0CCDB97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E22F606F-7151-4BF1-9F8A-FF12E0CCDB97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E22F606F-7151-4BF1-9F8A-FF12E0CCDB97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27A37094-90BA-45A8-B568-1D311F27C89C}
 	EndGlobalSection
 EndGlobal
